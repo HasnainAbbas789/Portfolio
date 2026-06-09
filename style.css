@@ -216,10 +216,79 @@ section{
 
 .contact{
     text-align:center;
+    text-align: center;
+    padding: 70px 20px;
+    background-color: #0f172a;
+}
+#contact {
+  text-align: center;
+  padding: 70px 20px;
+  background: #0f172a;
 }
 
-.contact p{
-    margin:10px 0;
+#contact h2 span {
+  color: #38bdf8;
+}
+
+#contact .subtitle {
+  color: #94a3b8;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.contact-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 15px 25px;
+  min-width: 320px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact-card:hover {
+  border-color: #38bdf8;
+  transform: translateY(-3px);
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.social-box {
+  background: #0f172a; /* screenshot wale dark blue jesa */
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid #1e293b;
+}
+
+.social-box:hover {
+  background: #1e293b;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.social-box i {
+  font-size: 18px;
 }
 
 /* FOOTER */
